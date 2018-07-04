@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Default set of monitored resources -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<!-- <Resource type="javax.sql.DataSource" name="jdbc/mySQLDB" auth="Container"
+		username="noori" password="noori" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://127.0.0.1:3306/library?characterEncoding=UTF-8" /> -->
+	<Resource type="javax.sql.DataSource" name="jdbc/oracleDB" auth="Container"
+		username="ZLEEMINHYUK" password="CJcj@@333" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@52.2.165.125:1522:OYOODEV" />	
+		<!-- username="eaiuser" password="eai125!" -->
+</Context>
